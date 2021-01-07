@@ -1,10 +1,10 @@
-Demonstrate how you can alert a support team when instance or server RAM usage is greater than 60%, disk space usage is greater than 80%, or CPU usage greater than 70%.
-
-Your choice of using instancing, monitoring, and alert tool mechanisms like the following:
-
-* EC2 Instance
-* Cloudwatch
-* SNS
-* Any website endpoint
-* Uptime Robot
-* Slack channel
+Instructions
+=============
+1. Create a Webhook to publish SNS messages to Slack 
+      We use Lambda, because many common webhooks expect json key value pairs that SNS doesn't support.
+      Create an SNS topic using SNS service.
+      Create an incoming webhook to the Slack channel used for alerting support team and get the webhook link.
+      Create a Lanbda function by using lambda_function.py provide webhook link and channel name in the function.
+      Test the Lambda function by creating anew test event with sns-notification event template as below.
+      
+      
