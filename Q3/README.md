@@ -14,3 +14,4 @@ Instructions
     
     ![image](https://user-images.githubusercontent.com/67718999/103904315-1529a000-5138-11eb-98ec-65989a53cc01.png)
 
+3. Create a Cloudwatch alarm from monitoring tab at instance level with required metrics as below
