@@ -11,3 +11,6 @@ Instructions
       
 2. Create SNS subscription 
     Add a trigger at Lambda function and attach the SNS topic which is created before as shown below.
+    
+    ![image](https://user-images.githubusercontent.com/67718999/103904315-1529a000-5138-11eb-98ec-65989a53cc01.png)
+
