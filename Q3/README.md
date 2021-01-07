@@ -15,3 +15,7 @@ Instructions
     ![image](https://user-images.githubusercontent.com/67718999/103904315-1529a000-5138-11eb-98ec-65989a53cc01.png)
 
 3. Create a Cloudwatch alarm from monitoring tab at instance level with required metrics as below
+
+  ![image](https://user-images.githubusercontent.com/67718999/103905074-1c04e280-5139-11eb-8aea-092c21af5461.png)
+  
+  create alarams for RAM usage, disk space usage as same above with our required threshold values. When ever cloudwatch meets those threshold values, it will fire     the alarms and a notification will be sent to Slack channel we mentioned in the Lambda function.
