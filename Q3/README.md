@@ -1,6 +1,6 @@
 Instructions
 =============
-1. Create a Webhook to publish SNS messages to Slack\n
+1. Create a Webhook to publish SNS messages to Slack.
       We use Lambda, because many common webhooks expect json key value pairs that SNS doesn't support\n
       Create an SNS topic using SNS service.
       Create an incoming webhook to the Slack channel used for alerting support team and get the webhook link.
