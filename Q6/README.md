@@ -1,13 +1,11 @@
-1. List the top 5 unique IP addresses accessing your Apache webserver.
+Instructions
+============
 
-cat access.log | awk '{print $1}' | sort -n | uniq -c | sort -nr | head -20
+1. To list the top 5 unique IP addresses accessing your Apache webserver\
+   $ cat /var/log/apache2/access.log | awk '{print $1}' | sort -n | uniq -c | sort -nr | head -5\
 
-2.List the past 10-days 4XX results of Apache's access log file, sorted by date with their IP address.
+2. To list the past 10-days results of Apache's access log file, sorted by date with their IP address.
+   Run the shell script access_log.sh\
+   $ ./access_log.sh\
 
-
-3.Write a utility script to view the top 10 disk-space users of a given path across multiple hosts.
-
-
-
-
-Please help with questions 2 and 3
+3. 
