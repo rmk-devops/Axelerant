@@ -12,13 +12,13 @@ Instructions
   Create a file servers.txt with list of servers required  in /opt/scripts folder and an output file disk-usage.out in /tmp directory to print disk usage users list\
 
   Run the shell script disk-space-users.sh and when prompted, input the required directory path as an argument as below \
-
-  ![image](https://user-images.githubusercontent.com/67718999/104088005-900ccb00-529e-11eb-98b6-ef1ab342b442.png)
+   
+   $ ./disk-space-users.sh\
+    Enter your required path: 
 
   On successful run, script will write server name, users and their usage od the entered directory into the output file /tmp/disk-usage.out.
 
   Sample output of the script looks as below
-
-  ![image](https://user-images.githubusercontent.com/67718999/104088055-03164180-529f-11eb-9dd5-150df13127ae.png)
+    
 
 
