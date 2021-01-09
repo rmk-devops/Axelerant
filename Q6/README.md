@@ -18,7 +18,8 @@ Instructions
 
   On successful run, script will write server name, users and their usage od the entered directory into the output file /tmp/disk-usage.out.
 
-  Sample output of the script looks as below
+  Sample output of the script looks as below\
+  ![image](https://user-images.githubusercontent.com/67718999/104088184-e3cbe400-529f-11eb-8b63-3508e164c764.png)
     
 
 
