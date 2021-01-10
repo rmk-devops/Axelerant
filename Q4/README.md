@@ -9,6 +9,8 @@ We can hang the system by applying artificial load on CPU by using stress withou
    $ sudo apt/yum install stress\
 
 4. create stress on cpu\
-   $ stress --cpu no.of cores --timeout 240s
+   $ stress --cpu no.of cores --timeout 240s\n
+   
+   This will hog the CPU to 100% usage and eventually the device will be hung.
 
 
