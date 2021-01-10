@@ -18,4 +18,4 @@ Instructions
 
   ![image](https://user-images.githubusercontent.com/67718999/103905074-1c04e280-5139-11eb-8aea-092c21af5461.png)
   
-  create alarms for RAM usage, disk space usage same as above with our required threshold values. Whenever cloudwatch meets those threshold values, it will fire     the alarms and a notification will be sent to Slack channel we mentioned in the Lambda function.
+  create alarms for RAM usage(60 %), disk space usage(80 %) same as above with our required threshold values. Whenever cloudwatch meets those threshold values, it will fire     the alarms and a notification will be sent to Slack channel we mentioned in the Lambda function.
