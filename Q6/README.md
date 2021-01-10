@@ -14,7 +14,7 @@ Instructions
   Run the shell script disk-space-users.sh and when prompted, input the required directory path as an argument as below \
    
    $ ./disk-space-users.sh\
-    Enter your required path: 
+    Enter your required path: /var/log(example)
 
   On successful run, script will write server name, users and their usage od the entered directory into the output file /tmp/disk-usage.out.
 
